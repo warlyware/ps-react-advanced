@@ -7,7 +7,7 @@
   "author": "warlyware",
   "scripts": {
     "dev": "pm2 start lib/server.js --watch --interpreter babel-node",
-    "webpack": "webpack -w"
+    "webpack": "webpack -dw"
   },
   "babel": {
     "presets": [
