@@ -5,6 +5,9 @@
   "license": "MIT",
   "description": "advanced react",
   "author": "warlyware",
+  "scripts": {
+    "dev": "pm2 start lib/server.js --watch"
+  },
   "devDependencies": {
     "babel-eslint": "^8.0.2",
     "eslint": "^4.11.0",
@@ -12,6 +15,7 @@
   },
   "dependencies": {
     "ejs": "^2.5.7",
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "pm2": "^2.7.2"
   }
 }
