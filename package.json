@@ -7,6 +7,7 @@
   "author": "warlyware",
   "scripts": {
     "dev": "pm2 start lib/server.js --watch --interpreter babel-node",
+    "jest": "jest --watch",
     "webpack": "webpack -dw"
   },
   "babel": {
@@ -19,7 +20,8 @@
   "devDependencies": {
     "babel-eslint": "^8.0.2",
     "eslint": "^4.11.0",
-    "eslint-plugin-react": "^7.5.1"
+    "eslint-plugin-react": "^7.5.1",
+    "jest": "^21.2.1"
   },
   "dependencies": {
     "babel-cli": "^6.26.0",
