@@ -1,0 +1,17 @@
+{
+  "name": "ps-advanced-react",
+  "version": "1.0.0",
+  "main": "lib/server.js",
+  "license": "MIT",
+  "description": "advanced react",
+  "author": "warlyware",
+  "devDependencies": {
+    "babel-eslint": "^8.0.2",
+    "eslint": "^4.11.0",
+    "eslint-plugin-react": "^7.5.1"
+  },
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2"
+  }
+}
