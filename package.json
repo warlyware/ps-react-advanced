@@ -6,7 +6,7 @@
   "description": "advanced react",
   "author": "warlyware",
   "scripts": {
-    "dev": "pm2 start lib/server.js --watch --interpreter babel-node",
+    "dev": "NODE_PATH=./lib pm2 start lib/server.js --watch --interpreter babel-node",
     "jest": "jest --watch",
     "webpack": "webpack -dw"
   },
